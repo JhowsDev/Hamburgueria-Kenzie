@@ -1,0 +1,28 @@
+.container {
+    overflow: auto;
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem 10%;
+
+    margin-bottom: 5rem;
+}
+
+
+
+@media (min-width: 769px) {
+    .container {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        max-width: 1368px;
+        justify-content: baseline;
+        margin: 0 auto;
+        gap: 3rem;
+        box-sizing: border-box;
+        padding: 0;
+    
+        margin-bottom: 5rem;
+    }
+    
+}

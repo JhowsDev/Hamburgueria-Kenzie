@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: var(--grey-0);
+
+    padding-inline: 10%;
+    max-width: 100%;
+    height: 5rem;
+
+    margin-bottom: 2rem;
+
+    img {
+        width: 10rem;
+        height: 2.25rem;
+    }
+
+    div {
+        display: flex;
+        gap: 2rem;
+
+        button {
+            background-color: transparent;
+            border: none;
+            color: var(--gray-300);
+            position: relative;
+            color: #BDBDBD;
+            cursor: pointer;
+            transition: 0.5s;
+
+            span {
+                position: absolute;
+                top:-8px;
+                right: 0px  ;
+                padding: 1px 2px;
+                background-color: var(--color-primary);
+                border-radius: 4px;
+                font-size: var(--font-size-button);
+                font-weight: var(--font-weight-button);
+                color: #FFFFFF;
+            }
+
+           
+        }
+
+        button:hover {
+            color: #000000;
+        }
+
+        form {
+            display: none;
+        }
+    }
+}
